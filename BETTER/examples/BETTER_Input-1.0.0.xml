@@ -20,7 +20,7 @@
                 <auc:PremisesIdentifier>
                   <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
                   <auc:IdentifierCustomName>test</auc:IdentifierCustomName>
-                  <auc:IdentifierValue></auc:IdentifierValue>
+                  <auc:IdentifierValue/>
                 </auc:PremisesIdentifier>
               </auc:PremisesIdentifiers>
               <auc:Address>
@@ -28,7 +28,7 @@
                 <auc:State>Colorado</auc:State>
                 <auc:PostalCode>80401</auc:PostalCode>
               </auc:Address>
-              <auc:eGRIDRegionCode></auc:eGRIDRegionCode>
+              <auc:eGRIDRegionCode/>
               <auc:Longitude>-105.170883250207</auc:Longitude>
               <auc:Latitude>39.7406499757795</auc:Latitude>
               <auc:OccupancyClassification>Office</auc:OccupancyClassification>
