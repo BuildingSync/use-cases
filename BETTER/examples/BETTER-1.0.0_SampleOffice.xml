@@ -15,6 +15,11 @@
                 </auc:PremisesIdentifier>
               </auc:PremisesIdentifiers>
               <auc:Address>
+                <auc:StreetAddressDetail>
+                  <auc:Simplified>
+                    <auc:StreetAddress>15013 Denver West Parkway</auc:StreetAddress>
+                  </auc:Simplified>
+                </auc:StreetAddressDetail>
                 <auc:City>Golden</auc:City>
                 <auc:State>Colorado</auc:State>
                 <auc:PostalCode>80401</auc:PostalCode>
