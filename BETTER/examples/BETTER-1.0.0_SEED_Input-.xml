@@ -15,22 +15,27 @@
         <auc:Site ID="Site-1">
           <auc:Buildings>
             <auc:Building ID="Building-1">
-              <auc:PremisesName>EPA Sample Library</auc:PremisesName>
+              <auc:PremisesName>BETTER integration test building</auc:PremisesName>
               <auc:PremisesIdentifiers>
                 <auc:PremisesIdentifier>
                   <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
-                  <auc:IdentifierCustomName>test</auc:IdentifierCustomName>
-                  <auc:IdentifierValue/>
+                  <auc:IdentifierCustomName>seed_analysis_property_view_id</auc:IdentifierCustomName>
+                  <auc:IdentifierValue>217</auc:IdentifierValue>
                 </auc:PremisesIdentifier>
               </auc:PremisesIdentifiers>
               <auc:Address>
+                <auc:StreetAddressDetail>
+                  <auc:Simplified>
+                    <auc:StreetAddress>15013 Denver West Parkway</auc:StreetAddress>
+                  </auc:Simplified>
+                </auc:StreetAddressDetail>
                 <auc:City>Golden</auc:City>
                 <auc:State>Colorado</auc:State>
                 <auc:PostalCode>80401</auc:PostalCode>
               </auc:Address>
               <auc:eGRIDRegionCode/>
-              <auc:Longitude>-105.170883250207</auc:Longitude>
-              <auc:Latitude>39.7406499757795</auc:Latitude>
+              <auc:Longitude>None</auc:Longitude>
+              <auc:Latitude>None</auc:Latitude>
               <auc:OccupancyClassification>Office</auc:OccupancyClassification>
               <auc:FloorAreas>
                 <auc:FloorArea>
@@ -71,7 +76,7 @@
                   <auc:StartTimestamp>2019-01-01T08:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-02-01T08:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>597478.9</auc:IntervalReading>
+                  <auc:IntervalReading>23188.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-1">
@@ -79,7 +84,7 @@
                   <auc:StartTimestamp>2019-02-01T08:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-03-01T08:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>23188.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-2">
@@ -87,7 +92,7 @@
                   <auc:StartTimestamp>2019-03-01T08:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-04-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>23870.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-3">
@@ -95,7 +100,7 @@
                   <auc:StartTimestamp>2019-04-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-05-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>25575.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-4">
@@ -103,7 +108,7 @@
                   <auc:StartTimestamp>2019-05-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-06-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>34100.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-5">
@@ -111,7 +116,7 @@
                   <auc:StartTimestamp>2019-06-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-07-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>88660.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-6">
@@ -119,7 +124,7 @@
                   <auc:StartTimestamp>2019-07-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-08-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>88660.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-7">
@@ -127,7 +132,7 @@
                   <auc:StartTimestamp>2019-08-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-09-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>88660.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-8">
@@ -135,7 +140,7 @@
                   <auc:StartTimestamp>2019-09-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-10-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>28985.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-9">
@@ -143,7 +148,7 @@
                   <auc:StartTimestamp>2019-10-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-11-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>23188.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-10">
@@ -151,7 +156,7 @@
                   <auc:StartTimestamp>2019-11-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-12-01T08:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>23188.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-11-11">
@@ -159,7 +164,7 @@
                   <auc:StartTimestamp>2019-12-01T08:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2020-01-01T08:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>548603.7</auc:IntervalReading>
+                  <auc:IntervalReading>23188.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-11"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-0">
@@ -167,7 +172,7 @@
                   <auc:StartTimestamp>2019-01-01T08:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-02-01T08:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>576.2</auc:IntervalReading>
+                  <auc:IntervalReading>70.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-1">
@@ -175,7 +180,7 @@
                   <auc:StartTimestamp>2019-02-01T08:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-03-01T08:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>488.1</auc:IntervalReading>
+                  <auc:IntervalReading>70.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-2">
@@ -183,7 +188,7 @@
                   <auc:StartTimestamp>2019-03-01T08:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-04-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>576.2</auc:IntervalReading>
+                  <auc:IntervalReading>50.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-3">
@@ -191,7 +196,7 @@
                   <auc:StartTimestamp>2019-04-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-05-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>488.1</auc:IntervalReading>
+                  <auc:IntervalReading>30.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-4">
@@ -199,7 +204,7 @@
                   <auc:StartTimestamp>2019-05-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-06-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>576.2</auc:IntervalReading>
+                  <auc:IntervalReading>10.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-5">
@@ -207,7 +212,7 @@
                   <auc:StartTimestamp>2019-06-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-07-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>488.1</auc:IntervalReading>
+                  <auc:IntervalReading>2.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-6">
@@ -215,7 +220,7 @@
                   <auc:StartTimestamp>2019-07-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-08-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>576.2</auc:IntervalReading>
+                  <auc:IntervalReading>2.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-7">
@@ -223,7 +228,7 @@
                   <auc:StartTimestamp>2019-08-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-09-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>488.1</auc:IntervalReading>
+                  <auc:IntervalReading>2.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-8">
@@ -231,7 +236,7 @@
                   <auc:StartTimestamp>2019-09-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-10-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>576.2</auc:IntervalReading>
+                  <auc:IntervalReading>20.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-9">
@@ -239,7 +244,7 @@
                   <auc:StartTimestamp>2019-10-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-11-01T07:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>488.1</auc:IntervalReading>
+                  <auc:IntervalReading>50.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-10">
@@ -247,7 +252,7 @@
                   <auc:StartTimestamp>2019-11-01T07:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2019-12-01T08:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>576.2</auc:IntervalReading>
+                  <auc:IntervalReading>70.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TimeSeries-19-11">
@@ -255,7 +260,7 @@
                   <auc:StartTimestamp>2019-12-01T08:00:00+00:00</auc:StartTimestamp>
                   <auc:EndTimestamp>2020-01-01T08:00:00+00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
-                  <auc:IntervalReading>488.1</auc:IntervalReading>
+                  <auc:IntervalReading>75.0</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Resource-19"/>
                 </auc:TimeSeries>
               </auc:TimeSeriesData>
