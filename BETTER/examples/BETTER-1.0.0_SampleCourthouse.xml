@@ -15,6 +15,11 @@
                 </auc:PremisesIdentifier>
               </auc:PremisesIdentifiers>
               <auc:Address>
+                <auc:StreetAddressDetail>
+                  <auc:Simplified>
+                    <auc:StreetAddress>555 W Harrison St</auc:StreetAddress>
+                  </auc:Simplified>
+                </auc:StreetAddressDetail>
                 <auc:City>Chicago</auc:City>
                 <auc:State>Illinois</auc:State>
                 <auc:PostalCode>60007</auc:PostalCode>
