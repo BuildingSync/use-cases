@@ -15,11 +15,16 @@
                 </auc:PremisesIdentifier>
               </auc:PremisesIdentifiers>
               <auc:Address>
+                <auc:StreetAddressDetail>
+                  <auc:Simplified>
+                    <auc:StreetAddress>11 Dorrance St</auc:StreetAddress>
+                  </auc:Simplified>
+                </auc:StreetAddressDetail>
                 <auc:City>Providence</auc:City>
                 <auc:State>Rhode Island</auc:State>
                 <auc:PostalCode>02860</auc:PostalCode>
               </auc:Address>
-              <auc:eGRIDRegionCode>NEWE</auc:eGRIDRegionCode>
+              <auc:eGRIDRegionCode/>
               <auc:Longitude>71.4128</auc:Longitude>
               <auc:Latitude>41.8240</auc:Latitude>
               <auc:OccupancyClassification>Lodging</auc:OccupancyClassification>
