@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <auc:BuildingSync xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:auc="http://buildingsync.net/schemas/bedes-auc/2019" xsi:schemaLocation="http://buildingsync.net/schemas/bedes-auc/2019 https://raw.github.com/BuildingSync/schema/v2.2.0/BuildingSync.xsd" version="2.2.0">
   <auc:Facilities>
     <auc:Facility ID="Facility-1">
@@ -18,7 +19,7 @@
                 <auc:State>California</auc:State>
                 <auc:PostalCode>92415</auc:PostalCode>
               </auc:Address>
-              <auc:eGRIDRegionCode></auc:eGRIDRegionCode>
+              <auc:eGRIDRegionCode/>
               <auc:Longitude>-117.2898</auc:Longitude>
               <auc:Latitude>34.1083</auc:Latitude>
               <auc:OccupancyClassification>Office</auc:OccupancyClassification>
