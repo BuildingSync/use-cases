@@ -19,7 +19,9 @@
                 <auc:State>CA</auc:State>
                 <auc:PostalCode>92220</auc:PostalCode>
               </auc:Address>
-              <auc:eGRIDSubregionCodes><auc:eGRIDSubregionCode>CAMX</auc:eGRIDSubregionCode></auc:eGRIDSubregionCodes>
+              <auc:eGRIDSubregionCodes>
+                <auc:eGRIDSubregionCode>CAMX</auc:eGRIDSubregionCode>
+              </auc:eGRIDSubregionCodes>
               <auc:Longitude>-116.8899</auc:Longitude>
               <auc:Latitude>33.9282</auc:Latitude>
               <auc:OccupancyClassification>Courthouse</auc:OccupancyClassification>

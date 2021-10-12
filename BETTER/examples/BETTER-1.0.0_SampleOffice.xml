@@ -19,7 +19,9 @@
                 <auc:State>CA</auc:State>
                 <auc:PostalCode>92415</auc:PostalCode>
               </auc:Address>
-              <auc:eGRIDSubregionCodes><auc:eGRIDSubregionCode>CAMX</auc:eGRIDSubregionCode></auc:eGRIDSubregionCodes>
+              <auc:eGRIDSubregionCodes>
+                <auc:eGRIDSubregionCode>CAMX</auc:eGRIDSubregionCode>
+              </auc:eGRIDSubregionCodes>
               <auc:Longitude>-117.2898</auc:Longitude>
               <auc:Latitude>34.1083</auc:Latitude>
               <auc:OccupancyClassification>Office</auc:OccupancyClassification>
