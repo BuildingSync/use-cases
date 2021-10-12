@@ -26,7 +26,7 @@
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Sites/auc:Site/auc:Buildings/auc:Building">
       <sch:assert test="auc:Address or auc:ClimateZoneType or auc:WeatherDataStationID or (auc:Latitude and auc:Longitude)" role="ERROR">auc:Address or auc:ClimateZoneType or auc:WeatherDataStationID or (auc:Latitude and auc:Longitude)</sch:assert>
       <sch:assert test="auc:PremisesName" role="ERROR">auc:PremisesName</sch:assert>
-      <sch:assert test="auc:eGRIDRegionCode" role="ERROR">auc:eGRIDRegionCode</sch:assert>
+      <sch:assert test="auc:eGRIDSubregionCodes" role="ERROR">auc:eGRIDSubregionCodes</sch:assert>
       <sch:assert test="auc:OccupancyClassification" role="ERROR">auc:OccupancyClassification</sch:assert>
       <sch:assert test="auc:FloorAreas/auc:FloorArea[auc:FloorAreaType='Gross']/auc:FloorAreaValue" role="ERROR">auc:FloorAreas/auc:FloorArea[auc:FloorAreaType='Gross']/auc:FloorAreaValue</sch:assert>
     </sch:rule>
