@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" schemaVersion="1.0.0-2.2.0" queryBinding="xslt1">
+<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" schemaVersion="1.0.0-2.4.0" queryBinding="xslt1">
   <sch:ns prefix="auc" uri="http://buildingsync.net/schemas/bedes-auc/2019"/>
   <sch:phase id="better_building_information" see="Based on BETTER analysis inputs">
     <sch:active pattern="document_structure_prerequisites_basic_building_info"/>
@@ -26,7 +26,7 @@
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Sites/auc:Site/auc:Buildings/auc:Building">
       <sch:assert test="auc:Address or auc:ClimateZoneType or auc:WeatherDataStationID or (auc:Latitude and auc:Longitude)" role="ERROR">auc:Address or auc:ClimateZoneType or auc:WeatherDataStationID or (auc:Latitude and auc:Longitude)</sch:assert>
       <sch:assert test="auc:PremisesName" role="ERROR">auc:PremisesName</sch:assert>
-      <sch:assert test="auc:eGRIDRegionCode" role="ERROR">auc:eGRIDRegionCode</sch:assert>
+      <sch:assert test="auc:eGRIDSubregionCodes" role="ERROR">auc:eGRIDSubregionCodes</sch:assert>
       <sch:assert test="auc:OccupancyClassification" role="ERROR">auc:OccupancyClassification</sch:assert>
       <sch:assert test="auc:FloorAreas/auc:FloorArea[auc:FloorAreaType='Gross']/auc:FloorAreaValue" role="ERROR">auc:FloorAreas/auc:FloorArea[auc:FloorAreaType='Gross']/auc:FloorAreaValue</sch:assert>
     </sch:rule>
