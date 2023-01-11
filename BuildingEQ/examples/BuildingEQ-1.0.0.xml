@@ -46,6 +46,16 @@
                   <auc:IdentifierCustomName>EER</auc:IdentifierCustomName>
                   <auc:IdentifierValue>A</auc:IdentifierValue>
                 </auc:PremisesIdentifier>
+                <auc:PremisesIdentifier>
+                  <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
+                  <auc:IdentifierCustomName>Custom ID 1</auc:IdentifierCustomName>
+                  <auc:IdentifierValue>1</auc:IdentifierValue>
+                </auc:PremisesIdentifier>
+                <auc:PremisesIdentifier>
+                  <auc:IdentifierLabel>Custom</auc:IdentifierLabel>
+                  <auc:IdentifierCustomName>City Custom Building ID</auc:IdentifierCustomName>
+                  <auc:IdentifierValue>1</auc:IdentifierValue>
+                </auc:PremisesIdentifier>
               </auc:PremisesIdentifiers>
               <auc:Address>
                 <auc:StreetAddressDetail>
@@ -82,6 +92,8 @@
               <auc:TotalExteriorAboveGradeWallArea>20544.0</auc:TotalExteriorAboveGradeWallArea>
               <auc:TotalExteriorBelowGradeWallArea>5136.0</auc:TotalExteriorBelowGradeWallArea>
               <auc:OverallWindowToWallRatio>0.10000000149011612</auc:OverallWindowToWallRatio>
+              <auc:BuildingClassification>Residential</auc:BuildingClassification>
+              <auc:OccupancyClassification>Multifamily</auc:OccupancyClassification>
               <auc:YearOfConstruction>2020</auc:YearOfConstruction>
               <auc:YearOfLastEnergyAudit>2019</auc:YearOfLastEnergyAudit>
               <auc:YearOfLastMajorRemodel>2020</auc:YearOfLastMajorRemodel>
