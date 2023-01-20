@@ -26,6 +26,11 @@
             <auc:City>New York</auc:City>
             <auc:State>NY</auc:State>
           </auc:Address>
+          <auc:ClimateZoneType>
+            <auc:ASHRAE>
+              <auc:ClimateZone>4A</auc:ClimateZone>
+            </auc:ASHRAE>
+          </auc:ClimateZoneType>
           <auc:Buildings>
             <auc:Building ID="BuildingType-70023826271140">
               <auc:PremisesName>Rise Boro</auc:PremisesName>
