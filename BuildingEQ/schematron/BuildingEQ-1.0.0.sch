@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" schemaVersion="1.0.0-2.4.0" queryBinding="xslt1">
   <sch:ns prefix="auc" uri="http://buildingsync.net/schemas/bedes-auc/2019"/>
   <sch:phase id="facility_description" see="ASHRAE 211 6.1.1">
     <sch:active pattern="document_structure_prerequisites_misc_building_info"/>
@@ -58,12 +58,12 @@
   <sch:pattern see="ASHRAE 211 6.1.1.1 and 6.1.1.2" id="misc_building_info">
     <sch:title>Misc Building Info</sch:title>
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Contacts/auc:Contact">
-      <sch:assert test="auc:Address/auc:State" role="">auc:Address/auc:State</sch:assert>
-      <sch:assert test="auc:Address_PostalCode" role="">auc:Address_PostalCode</sch:assert>
-      <sch:assert test="auc:ContactCompany" role="">auc:ContactCompany</sch:assert>
-      <sch:assert test="auc:ContactEmailAddresses/auc:ContactEmailAddress/auc:EmailAddress" role="">auc:ContactEmailAddresses/auc:ContactEmailAddress/auc:EmailAddress</sch:assert>
-      <sch:assert test="auc:ContactName" role="">auc:ContactName</sch:assert>
-      <sch:assert test="auc:ContactTelephoneNumbers/auc:ContactTelephoneNumber/auc:TelephoneNumber" role="">auc:ContactTelephoneNumbers/auc:ContactTelephoneNumber/auc:TelephoneNumber</sch:assert>
+      <sch:assert test="auc:Address/auc:State" role="ERROR">auc:Address/auc:State</sch:assert>
+      <sch:assert test="auc:Address_PostalCode" role="ERROR">auc:Address_PostalCode</sch:assert>
+      <sch:assert test="auc:ContactCompany" role="ERROR">auc:ContactCompany</sch:assert>
+      <sch:assert test="auc:ContactEmailAddresses/auc:ContactEmailAddress/auc:EmailAddress" role="ERROR">auc:ContactEmailAddresses/auc:ContactEmailAddress/auc:EmailAddress</sch:assert>
+      <sch:assert test="auc:ContactName" role="ERROR">auc:ContactName</sch:assert>
+      <sch:assert test="auc:ContactTelephoneNumbers/auc:ContactTelephoneNumber/auc:TelephoneNumber" role="ERROR">auc:ContactTelephoneNumbers/auc:ContactTelephoneNumber/auc:TelephoneNumber</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern see="" id="document_structure_prerequisites_pattern_title2">
@@ -79,8 +79,8 @@
       <sch:assert test="auc:ScenarioType/auc:Benchmark/auc:BenchmarkYear" role="WARNING">auc:ScenarioType/auc:Benchmark/auc:BenchmarkYear</sch:assert>
       <sch:assert test="auc:ScenarioType/auc:CalculationMethod/auc:Modeled/auc:SoftwareProgramUsed" role="WARNING">auc:ScenarioType/auc:CalculationMethod/auc:Modeled/auc:SoftwareProgramUsed</sch:assert>
       <sch:assert test="auc:ScenarioType/auc:CurrentBuilding/auc:ENERGYSTARScore" role="WARNING">auc:ScenarioType/auc:CurrentBuilding/auc:ENERGYSTARScore</sch:assert>
-      <sch:assert test="auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:CoolingDegreeDays" role="">auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:CoolingDegreeDays</sch:assert>
-      <sch:assert test="auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:HeatingDegreeDays" role="">auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:HeatingDegreeDays</sch:assert>
+      <sch:assert test="auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:CoolingDegreeDays" role="WARNING">auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:CoolingDegreeDays</sch:assert>
+      <sch:assert test="auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:HeatingDegreeDays" role="WARNING">auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:HeatingDegreeDays</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern see="" id="document_structure_prerequisites_pattern_title3">
@@ -92,7 +92,7 @@
   <sch:pattern see="pattern see3" id="pattern_title3">
     <sch:title>pattern title3</sch:title>
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Sites/auc:Site/auc:ASHRAE">
-      <sch:assert test="auc:ClimateZone" role="">auc:ClimateZone</sch:assert>
+      <sch:assert test="auc:ClimateZone" role="ERROR">auc:ClimateZone</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern see="" id="document_structure_prerequisites_pattern_title4">
@@ -104,9 +104,9 @@
   <sch:pattern see="pattern see4" id="pattern_title4">
     <sch:title>pattern title4</sch:title>
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Sites/auc:Site/auc:Buildings/auc:Building/auc:Address">
-      <sch:assert test="auc:City" role="">auc:City</sch:assert>
-      <sch:assert test="auc:PostalCode" role="">auc:PostalCode</sch:assert>
-      <sch:assert test="auc:State" role="">auc:State</sch:assert>
+      <sch:assert test="auc:City" role="ERROR">auc:City</sch:assert>
+      <sch:assert test="auc:PostalCode" role="ERROR">auc:PostalCode</sch:assert>
+      <sch:assert test="auc:State" role="ERROR">auc:State</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern see="" id="document_structure_prerequisites_pattern_title5">
@@ -131,7 +131,7 @@
   <sch:pattern see="pattern see6" id="pattern_title6">
     <sch:title>pattern title6</sch:title>
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Sites/auc:Site/auc:Buildings/auc:Building/auc:FloorAreas/auc:FloorArea">
-      <sch:assert test="auc:FloorAreaType" role="">auc:FloorAreaType</sch:assert>
+      <sch:assert test="auc:FloorAreaType" role="WARNING">auc:FloorAreaType</sch:assert>
       <sch:assert test="auc:FloorAreaType" role="WARNING">auc:FloorAreaType</sch:assert>
       <sch:assert test="auc:FloorAreaType" role="WARNING">auc:FloorAreaType</sch:assert>
       <sch:assert test="auc:FloorAreaType" role="WARNING">auc:FloorAreaType</sch:assert>
@@ -161,8 +161,8 @@
   <sch:pattern see="pattern see8" id="pattern_title8">
     <sch:title>pattern title8</sch:title>
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Sites/auc:Site/auc:Buildings">
-      <sch:assert test="auc:Building/auc:PremisesName" role="">auc:Building/auc:PremisesName</sch:assert>
-      <sch:assert test="auc:Building/auc:PremisesNotes" role="">auc:Building/auc:PremisesNotes</sch:assert>
+      <sch:assert test="auc:Building/auc:PremisesName" role="ERROR">auc:Building/auc:PremisesName</sch:assert>
+      <sch:assert test="auc:Building/auc:PremisesNotes" role="ERROR">auc:Building/auc:PremisesNotes</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern see="" id="document_structure_prerequisites_pattern_title9">
@@ -174,7 +174,7 @@
   <sch:pattern see="pattern see9" id="pattern_title9">
     <sch:title>pattern title9</sch:title>
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Sites/auc:Site/auc:Buildings/auc:Building/auc:Sections/auc:Section">
-      <sch:assert test="auc:OccupancyClassification" role="">auc:OccupancyClassification</sch:assert>
+      <sch:assert test="auc:OccupancyClassification" role="ERROR">auc:OccupancyClassification</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern see="" id="document_structure_prerequisites_pattern_title10">
@@ -186,8 +186,8 @@
   <sch:pattern see="pattern see10" id="pattern_title10">
     <sch:title>pattern title10</sch:title>
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Sites/auc:Site/auc:Buildings/auc:Building/auc:Sections/auc:Section/auc:TypicalOccupantUsages/auc:TypicalOccupantUsage">
-      <sch:assert test="auc:TypicalOccupantUsageUnits" role="">auc:TypicalOccupantUsageUnits</sch:assert>
-      <sch:assert test="auc:TypicalOccupantUsageValue" role="">auc:TypicalOccupantUsageValue</sch:assert>
+      <sch:assert test="auc:TypicalOccupantUsageUnits" role="ERROR">auc:TypicalOccupantUsageUnits</sch:assert>
+      <sch:assert test="auc:TypicalOccupantUsageValue" role="ERROR">auc:TypicalOccupantUsageValue</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern see="" id="document_structure_prerequisites_pattern_title11">
