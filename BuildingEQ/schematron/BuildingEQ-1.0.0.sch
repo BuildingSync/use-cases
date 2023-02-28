@@ -59,7 +59,7 @@
     <sch:title>Misc Building Info</sch:title>
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Contacts/auc:Contact">
       <sch:assert test="auc:Address/auc:State" role="ERROR">auc:Address/auc:State</sch:assert>
-      <sch:assert test="auc:Address_PostalCode" role="ERROR">auc:Address_PostalCode</sch:assert>
+      <sch:assert test="auc:Address/auc:PostalCode" role="ERROR">auc:Address_PostalCode</sch:assert>
       <sch:assert test="auc:ContactCompany" role="WARNING">auc:ContactCompany</sch:assert>
       <sch:assert test="auc:ContactEmailAddresses/auc:ContactEmailAddress/auc:EmailAddress" role="ERROR">auc:ContactEmailAddresses/auc:ContactEmailAddress/auc:EmailAddress</sch:assert>
       <sch:assert test="auc:ContactName" role="ERROR">auc:ContactName</sch:assert>
