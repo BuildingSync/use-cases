@@ -2013,6 +2013,94 @@
                 </auc:UserDefinedField>
               </auc:UserDefinedFields>
             </auc:Scenario>
+            <auc:Scenario ID="ScenarioType-DegreeDays">
+              <auc:ScenarioType>
+                <auc:CurrentBuilding>
+                  <auc:CalculationMethod>
+                    <auc:Measured/>
+                  </auc:CalculationMethod>
+                </auc:CurrentBuilding>
+              </auc:ScenarioType>
+              <auc:TimeSeriesData>
+                <auc:TimeSeries ID="ts-1">
+                  <auc:StartTimestamp>2012-01-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>30.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>1.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-2">
+                  <auc:StartTimestamp>2012-02-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>27.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>1.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-3">
+                  <auc:StartTimestamp>2012-03-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>30.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>1.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-4">
+                  <auc:StartTimestamp>2012-04-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>20.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>10.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-5">
+                  <auc:StartTimestamp>2012-05-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>12.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>19.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-6">
+                  <auc:StartTimestamp>2012-06-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>3.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>27.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-7">
+                  <auc:StartTimestamp>2012-07-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>1.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>30.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-8">
+                  <auc:StartTimestamp>2012-08-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>2.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>29.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-9">
+                  <auc:StartTimestamp>2012-09-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>10.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>20.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-10">
+                  <auc:StartTimestamp>2012-10-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>19.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>12.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-11">
+                  <auc:StartTimestamp>2012-11-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>25.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>5.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="ts-12">
+                  <auc:StartTimestamp>2012-12-01T00:00:00</auc:StartTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:HeatingDegreeDays>29.0</auc:HeatingDegreeDays>
+                  <auc:CoolingDegreeDays>2.0</auc:CoolingDegreeDays>
+                </auc:TimeSeries>
+              </auc:TimeSeriesData>
+              <auc:LinkedPremises>
+                <auc:Building>
+                  <auc:LinkedBuildingID IDref="BuildingType-70023826271140"/>
+                </auc:Building>
+              </auc:LinkedPremises>
+            </auc:Scenario>
           </auc:Scenarios>
           <auc:AuditDates>
             <auc:AuditDate>
