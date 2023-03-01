@@ -72,6 +72,13 @@
       <sch:assert test="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Reports/auc:Report/auc:Scenarios/auc:Scenario" role="ERROR">/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Reports/auc:Report/auc:Scenarios/auc:Scenario</sch:assert>
     </sch:rule>
   </sch:pattern>
+  <sch:pattern see="" id="pattern_title2_dd">
+    <sch:title>Degree Days Data</sch:title>
+    <sch:rule context="/">
+      <sch:assert test="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Reports/auc:Report/auc:Scenarios/auc:Scenario/auc:TimeSeriesData/auc:TimeSeries/auc:HeatingDegreeDays" role="ERROR">Degree Days Data missing.</sch:assert>
+      <sch:assert test="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Reports/auc:Report/auc:Scenarios/auc:Scenario/auc:TimeSeriesData/auc:TimeSeries/auc:CoolingDegreeDays" role="ERROR">Degree Days Data missing.</sch:assert>
+    </sch:rule>
+  </sch:pattern>
   <sch:pattern see="pattern see2" id="pattern_title2">
     <sch:title>pattern title2</sch:title>
     <sch:rule context="/auc:BuildingSync/auc:Facilities/auc:Facility/auc:Reports/auc:Report/auc:Scenarios/auc:Scenario">
@@ -79,8 +86,8 @@
       <sch:assert test="auc:ScenarioType/auc:Benchmark/auc:BenchmarkYear" role="WARNING">auc:ScenarioType/auc:Benchmark/auc:BenchmarkYear</sch:assert>
       <sch:assert test="auc:ScenarioType/auc:CalculationMethod/auc:Modeled/auc:SoftwareProgramUsed" role="WARNING">auc:ScenarioType/auc:CalculationMethod/auc:Modeled/auc:SoftwareProgramUsed</sch:assert>
       <sch:assert test="auc:ScenarioType/auc:CurrentBuilding/auc:ENERGYSTARScore" role="WARNING">auc:ScenarioType/auc:CurrentBuilding/auc:ENERGYSTARScore</sch:assert>
-      <sch:assert test="auc:TimeSeriesData/auc:TimeSeries/auc:CoolingDegreeDays" role="ERROR">auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:CoolingDegreeDays</sch:assert>
-      <sch:assert test="auc:TimeSeriesData/auc:TimeSeries/auc:HeatingDegreeDays" role="ERROR">auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:HeatingDegreeDays</sch:assert>
+      <!--sch:assert test="auc:TimeSeriesData/auc:TimeSeries/auc:CoolingDegreeDays" role="ERROR">auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:CoolingDegreeDays</sch:assert-->
+      <!--sch:assert test="auc:TimeSeriesData/auc:TimeSeries/auc:HeatingDegreeDays" role="ERROR">auc:TimeSeriesData/auc:TimeSeries/auc:IntervalFrequency/auc:HeatingDegreeDays</sch:assert-->
     </sch:rule>
   </sch:pattern>
   <sch:pattern see="" id="document_structure_prerequisites_pattern_title3">
