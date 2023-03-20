@@ -72,6 +72,8 @@
                 <auc:State>NY</auc:State>
                 <auc:PostalCode>11221</auc:PostalCode>
               </auc:Address>
+              <auc:BuildingClassification>Residential</auc:BuildingClassification>
+              <auc:OccupancyClassification>Multifamily</auc:OccupancyClassification>
               <auc:ConditionedFloorsAboveGrade>4</auc:ConditionedFloorsAboveGrade>
               <auc:ConditionedFloorsBelowGrade>1</auc:ConditionedFloorsBelowGrade>
               <auc:BuildingAutomationSystem>true</auc:BuildingAutomationSystem>
@@ -97,8 +99,6 @@
               <auc:TotalExteriorAboveGradeWallArea>20544.0</auc:TotalExteriorAboveGradeWallArea>
               <auc:TotalExteriorBelowGradeWallArea>5136.0</auc:TotalExteriorBelowGradeWallArea>
               <auc:OverallWindowToWallRatio>0.10000000149011612</auc:OverallWindowToWallRatio>
-              <auc:BuildingClassification>Residential</auc:BuildingClassification>
-              <auc:OccupancyClassification>Multifamily</auc:OccupancyClassification>
               <auc:YearOfConstruction>2020</auc:YearOfConstruction>
               <auc:YearOfLastEnergyAudit>2019</auc:YearOfLastEnergyAudit>
               <auc:YearOfLastMajorRemodel>2020</auc:YearOfLastMajorRemodel>
