@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auc:BuildingSync xmlns:auc="http://buildingsync.net/schemas/bedes-auc/2019" version="2.4.0">
+  <auc:Facilities>
+    <auc:Facility ID="Facility-1">
+      <auc:Sites>
+        <auc:Site ID="Site-1">
+          <auc:Buildings>
+            <auc:Building ID="Building-Small-Office-Prototype">
+              <auc:PremisesName>A building doing emission audit</auc:PremisesName>
+              <auc:PremisesNotes>Here we record general problems / issues identified in a walkthrough survey.</auc:PremisesNotes>
+              <auc:Address>
+                <auc:StreetAddressDetail>
+                  <auc:Simplified>
+                    <auc:StreetAddress>Some address</auc:StreetAddress>
+                  </auc:Simplified>
+                </auc:StreetAddressDetail>
+                <auc:City>Denver</auc:City>
+                <auc:State>CO</auc:State>
+                <auc:PostalCode>80014</auc:PostalCode>
+              </auc:Address>
+              <auc:Longitude>-104.830000</auc:Longitude>
+              <auc:Latitude>39.660000</auc:Latitude>
+              <auc:BuildingClassification>Commercial</auc:BuildingClassification>
+              <auc:OccupancyClassification>Office</auc:OccupancyClassification>
+              <auc:PrimaryContactID IDref="Contact-Owner"/>
+              <auc:FloorsAboveGrade>1</auc:FloorsAboveGrade>
+              <auc:FloorsBelowGrade>0</auc:FloorsBelowGrade>
+              <auc:ConditionedFloorsAboveGrade>1</auc:ConditionedFloorsAboveGrade>
+              <auc:ConditionedFloorsBelowGrade>0</auc:ConditionedFloorsBelowGrade>
+              <auc:FloorAreas>
+                <auc:FloorArea>
+                  <auc:FloorAreaType>Gross</auc:FloorAreaType>
+                  <auc:FloorAreaValue>5500.000000</auc:FloorAreaValue>
+                </auc:FloorArea>
+                <auc:FloorArea>
+                  <auc:FloorAreaType>Conditioned</auc:FloorAreaType>
+                  <auc:FloorAreaValue>5500.000000</auc:FloorAreaValue>
+                </auc:FloorArea>
+              </auc:FloorAreas>
+              <auc:TotalExteriorAboveGradeWallArea>6500.000000</auc:TotalExteriorAboveGradeWallArea>
+              <auc:TotalExteriorBelowGradeWallArea>0.000000</auc:TotalExteriorBelowGradeWallArea>
+              <auc:OverallWindowToWallRatio>0.213300</auc:OverallWindowToWallRatio>
+              <auc:OverallDoorToWallRatio>0.050000</auc:OverallDoorToWallRatio>
+              <auc:YearOfConstruction>2000</auc:YearOfConstruction>
+              <auc:YearOccupied>2000</auc:YearOccupied>
+              <auc:YearOfLastEnergyAudit>2010</auc:YearOfLastEnergyAudit>
+              <auc:RetrocommissioningDate>2020-03-01</auc:RetrocommissioningDate>
+              <auc:YearOfLastMajorRemodel>2000</auc:YearOfLastMajorRemodel>
+            </auc:Building>
+          </auc:Buildings>
+        </auc:Site>
+      </auc:Sites>
+      <auc:Systems>
+        <auc:LightingSystems>
+          <auc:LightingSystem ID="LightingSystem-1">
+            <auc:LampType>
+              <auc:LinearFluorescent>
+                <auc:LampLabel>T8</auc:LampLabel>
+              </auc:LinearFluorescent>
+            </auc:LampType>
+            <auc:BallastType>Standard Electronic</auc:BallastType>
+            <auc:DimmingCapability>
+              <auc:MinimumDimmingLightFraction>0.200000</auc:MinimumDimmingLightFraction>
+            </auc:DimmingCapability>
+            <auc:PercentPremisesServed>100.000000</auc:PercentPremisesServed>
+            <auc:InstalledPower>5.500000</auc:InstalledPower>
+            <auc:LampPower>32.000000</auc:LampPower>
+            <auc:NumberOfLampsPerBallast>4</auc:NumberOfLampsPerBallast>
+            <auc:NumberOfBallastsPerLuminaire>1.000000</auc:NumberOfBallastsPerLuminaire>
+            <auc:NumberOfLuminaires>43</auc:NumberOfLuminaires>
+            <auc:OutsideLighting>false</auc:OutsideLighting>
+            <auc:Controls>
+              <auc:Control>
+                <auc:OtherControlTechnology>
+                  <auc:ControlSystemType>
+                    <auc:Digital/>
+                  </auc:ControlSystemType>
+                  <auc:ControlStrategy>Programmable</auc:ControlStrategy>
+                </auc:OtherControlTechnology>
+              </auc:Control>
+            </auc:Controls>
+            <auc:LightingAutomationSystem>false</auc:LightingAutomationSystem>
+            <auc:LinkedPremises>
+              <auc:Section>
+                <auc:LinkedSectionID IDref="Section-office">
+                  <auc:LinkedScheduleIDs>
+                    <auc:LinkedScheduleID IDref="Schedule-Lighting"/>
+                  </auc:LinkedScheduleIDs>
+                </auc:LinkedSectionID>
+              </auc:Section>
+            </auc:LinkedPremises>
+          </auc:LightingSystem>
+          <auc:LightingSystem ID="LightingSystem-2">
+            <auc:LampType>
+              <auc:LinearFluorescent>
+                <auc:LampLabel>T12</auc:LampLabel>
+              </auc:LinearFluorescent>
+            </auc:LampType>
+            <auc:BallastType>Standard Electronic</auc:BallastType>
+            <auc:PercentPremisesServed>100.000000</auc:PercentPremisesServed>
+            <auc:InstalledPower>1.582575</auc:InstalledPower>
+            <auc:LampPower>316.516000</auc:LampPower>
+            <auc:NumberOfLampsPerBallast>1</auc:NumberOfLampsPerBallast>
+            <auc:NumberOfBallastsPerLuminaire>1.000000</auc:NumberOfBallastsPerLuminaire>
+            <auc:NumberOfLuminaires>5</auc:NumberOfLuminaires>
+            <auc:OutsideLighting>true</auc:OutsideLighting>
+            <auc:Controls>
+              <auc:Control>
+                <auc:OtherControlTechnology>
+                  <auc:ControlSystemType>
+                    <auc:Digital/>
+                  </auc:ControlSystemType>
+                  <auc:ControlStrategy>Programmable</auc:ControlStrategy>
+                </auc:OtherControlTechnology>
+              </auc:Control>
+            </auc:Controls>
+            <auc:LightingAutomationSystem>false</auc:LightingAutomationSystem>
+            <auc:LinkedPremises>
+              <auc:Section>
+                <auc:LinkedSectionID IDref="Section-Whole-building">
+                  <auc:LinkedScheduleIDs>
+                    <auc:LinkedScheduleID IDref="Schedule-Lighting"/>
+                  </auc:LinkedScheduleIDs>
+                </auc:LinkedSectionID>
+              </auc:Section>
+            </auc:LinkedPremises>
+          </auc:LightingSystem>
+          <auc:LightingSystem ID="LightingSystem-new">
+            <auc:LampType>
+              <auc:SolidStateLighting>
+                <auc:LampLabel>LED</auc:LampLabel>
+              </auc:SolidStateLighting>
+            </auc:LampType>
+            <auc:BallastType>Standard Electronic</auc:BallastType>
+            <auc:DimmingCapability>
+              <auc:MinimumDimmingLightFraction>0.100000</auc:MinimumDimmingLightFraction>
+            </auc:DimmingCapability>
+            <auc:PercentPremisesServed>100.000000</auc:PercentPremisesServed>
+            <auc:InstalledPower>2.752000</auc:InstalledPower>
+            <auc:LampPower>16.000000</auc:LampPower>
+            <auc:NumberOfLampsPerBallast>4</auc:NumberOfLampsPerBallast>
+            <auc:NumberOfBallastsPerLuminaire>1.000000</auc:NumberOfBallastsPerLuminaire>
+            <auc:NumberOfLuminaires>43</auc:NumberOfLuminaires>
+            <auc:OutsideLighting>false</auc:OutsideLighting>
+            <auc:Controls>
+              <auc:Control>
+                <auc:Daylighting>
+                  <auc:ControlSystemType>
+                    <auc:Digital/>
+                  </auc:ControlSystemType>
+                  <auc:ControlSensor>Photocell</auc:ControlSensor>
+                  <auc:ControlStrategy>Continuous</auc:ControlStrategy>
+                </auc:Daylighting>
+              </auc:Control>
+            </auc:Controls>
+            <auc:LightingAutomationSystem>false</auc:LightingAutomationSystem>
+            <auc:LinkedPremises>
+              <auc:Section>
+                <auc:LinkedSectionID IDref="Section-office">
+                  <auc:LinkedScheduleIDs>
+                    <auc:LinkedScheduleID IDref="Schedule-Lighting"/>
+                  </auc:LinkedScheduleIDs>
+                </auc:LinkedSectionID>
+              </auc:Section>
+            </auc:LinkedPremises>
+          </auc:LightingSystem>
+        </auc:LightingSystems>  
+      </auc:Systems>
+      <auc:Measures>
+        <auc:Measure ID="Measure-LEDs">
+          <auc:TypeOfMeasure>
+            <auc:Replacements>
+              <auc:Replacement>
+                <auc:ExistingSystemReplaced IDref="LightingSystem-1"/>
+                <auc:AlternativeSystemReplacement IDref="LightingSystem-new"/>
+              </auc:Replacement>
+            </auc:Replacements>
+          </auc:TypeOfMeasure>
+          <auc:SystemCategoryAffected>Lighting</auc:SystemCategoryAffected>
+          <auc:TechnologyCategories>
+            <auc:TechnologyCategory>
+              <auc:LightingImprovements>
+                <auc:MeasureName>Retrofit with light emitting diode technologies</auc:MeasureName>
+              </auc:LightingImprovements>
+            </auc:TechnologyCategory>
+          </auc:TechnologyCategories>
+          <auc:MeasureScaleOfApplication>Individual system</auc:MeasureScaleOfApplication>
+          <auc:LongDescription>This measure is designed to replace all fluorescent bulbs with LEDs</auc:LongDescription>
+          <auc:MeasureSavingsAnalysis>
+            <auc:AnnualSavingsAverageGHGEmissions>500.000000</auc:AnnualSavingsAverageGHGEmissions>
+            <auc:AnnualSavingsMarginalGHGEmissions>250.000000</auc:AnnualSavingsMarginalGHGEmissions>
+            <auc:AnnualSavingsGHGEmissionIntensity>0.577299</auc:AnnualSavingsGHGEmissionIntensity>
+          </auc:MeasureSavingsAnalysis>
+          <auc:UsefulLife>1.000000</auc:UsefulLife>
+          <auc:MeasureInstallationCost>50.000000</auc:MeasureInstallationCost>
+          <auc:MeasureMaterialCost>774.000000</auc:MeasureMaterialCost>
+          <auc:Recommended>true</auc:Recommended>
+          <auc:StartDate>2021-01-01</auc:StartDate>
+          <auc:EndDate>2021-12-30</auc:EndDate>
+        </auc:Measure>
+      </auc:Measures>
+      <auc:Reports>
+        <auc:Report ID="Report-Emission-Audit">
+          <auc:Scenarios>
+            <auc:Scenario ID="Scenario-measured">
+              <auc:ScenarioType>
+                <auc:CurrentBuilding>
+                  <auc:CalculationMethod>
+                    <auc:Measured/>
+                  </auc:CalculationMethod>
+                </auc:CurrentBuilding>
+              </auc:ScenarioType>
+              <auc:ResourceUses>
+                <auc:ResourceUse ID="ResourceUse-Electricity">
+                  <auc:EnergyResource>Electricity</auc:EnergyResource>
+                  <auc:ResourceUseNotes>Document irregularities in monthly patterns. No irregularities found.</auc:ResourceUseNotes>
+                  <auc:ResourceUnits>kWh</auc:ResourceUnits>
+                  <auc:EndUse>All end uses</auc:EndUse>
+                  <auc:AnnualFuelUseNativeUnits>67334.150000</auc:AnnualFuelUseNativeUnits>
+                  <auc:AnnualFuelUseConsistentUnits>229.753657</auc:AnnualFuelUseConsistentUnits>
+                  <auc:AnnualFuelUseLinkedTimeSeriesIDs>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-1"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-2"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-3"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-4"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-5"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-6"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-7"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-8"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-9"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-10"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-11"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Electricity-Total-12"/>
+                  </auc:AnnualFuelUseLinkedTimeSeriesIDs>
+                  <auc:PeakResourceUnits>kW</auc:PeakResourceUnits>
+                  <auc:AnnualPeakNativeUnits>26.040000</auc:AnnualPeakNativeUnits>
+                  <auc:AnnualPeakConsistentUnits>26.040000</auc:AnnualPeakConsistentUnits>
+                  <auc:AnnualFuelCost>4613.820000</auc:AnnualFuelCost>
+                  <auc:Emissions>
+                    <auc:Emission>
+                      <auc:EmissionBoundary>Indirect</auc:EmissionBoundary>
+                      <auc:EmissionsType>CO2e</auc:EmissionsType>
+                      <auc:EmissionsFactor>0.3</auc:EmissionsFactor>
+                      <auc:EmissionsFactorSource>US EIA</auc:EmissionsFactorSource>
+                      <auc:GHGEmissions>25000.000000</auc:GHGEmissions>
+                      <auc:EmissionsLinkedTimeSeriesIDs>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-1"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-2"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-3"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-4"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-5"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-6"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-7"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-8"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-9"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-10"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-11"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-12"/>
+                      </auc:EmissionsLinkedTimeSeriesIDs>
+                    </auc:Emission>
+                  </auc:Emissions>
+                  <auc:UtilityIDs>
+                    <auc:UtilityID IDref="Utility-Electric"/>
+                  </auc:UtilityIDs>
+                </auc:ResourceUse>
+                <auc:ResourceUse ID="ResourceUse-Natural-gas">
+                  <auc:EnergyResource>Natural gas</auc:EnergyResource>
+                  <auc:ResourceUseNotes>No irregularities in monthly energy consumption found.</auc:ResourceUseNotes>
+                  <auc:ResourceUnits>MMBtu</auc:ResourceUnits>
+                  <auc:EndUse>All end uses</auc:EndUse>
+                  <auc:AnnualFuelUseNativeUnits>8.720000</auc:AnnualFuelUseNativeUnits>
+                  <auc:AnnualFuelUseConsistentUnits>8.720000</auc:AnnualFuelUseConsistentUnits>
+                  <auc:AnnualFuelUseLinkedTimeSeriesIDs>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-1"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-2"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-3"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-4"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-5"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-6"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-7"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-8"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-9"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-10"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-11"/>
+                    <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-12"/>
+                  </auc:AnnualFuelUseLinkedTimeSeriesIDs>
+                  <auc:AnnualFuelCost>540.830000</auc:AnnualFuelCost>
+                  <auc:Emissions>
+                    <auc:Emission>
+                      <auc:EmissionBoundary>Indirect</auc:EmissionBoundary>
+                      <auc:EmissionsType>CO2e</auc:EmissionsType>
+                      <auc:EmissionsFactor>0.3</auc:EmissionsFactor>
+                      <auc:EmissionsFactorSource>US EIA</auc:EmissionsFactorSource>
+                      <auc:GHGEmissions>25000.000000</auc:GHGEmissions>
+                      <auc:EmissionsLinkedTimeSeriesIDs>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-1"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-2"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-3"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-4"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-5"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-6"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-7"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-8"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-9"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-10"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-11"/>
+                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-12"/>
+                      </auc:EmissionsLinkedTimeSeriesIDs>
+                    </auc:Emission>
+                  </auc:Emissions>
+                  <auc:UtilityIDs>
+                    <auc:UtilityID IDref="Utility-Natural-Gas"/>
+                  </auc:UtilityIDs>
+                </auc:ResourceUse>
+              </auc:ResourceUses>
+              <auc:TimeSeriesData>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-1">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-01-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-02-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5933.100000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-2">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-02-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-03-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>28</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5446.100000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-3">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-03-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-04-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5736.490000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-4">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-04-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-05-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>30</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>4980.500000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-5">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-05-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-06-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5187.210000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-6">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-06-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-07-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>30</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5842.950000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-7">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-07-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-08-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5801.730000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-8">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-08-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-09-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>6220.160000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-9">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-09-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-10-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>30</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5682.870000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-10">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-10-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-11-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5571.930000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-11">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-11-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-12-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>30</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5525.150000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Electricity-Total-12">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-12-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2020-01-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>5405.940000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Electricity"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-1">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-01-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-02-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>1.720000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-2">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-02-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-03-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>28</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>1.250000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-3">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-03-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-04-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>0.410000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-4">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-04-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-05-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>30</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>0.430000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-5">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-05-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-06-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>0.010000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-6">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-06-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-07-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>30</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>0.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-7">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-07-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-08-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>0.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-8">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-08-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-09-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>0.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-9">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-09-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-10-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>30</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>0.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-10">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-10-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-11-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>0.200000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-11">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-11-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-12-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>30</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>0.400000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-Natural-gas-Total-12">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-12-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2020-01-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalDuration>31</auc:IntervalDuration>
+                  <auc:IntervalDurationUnits>Day</auc:IntervalDurationUnits>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>4.300000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-Natural-gas"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-1">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-01-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-02-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>250.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-2">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-02-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-03-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>240.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-3">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-03-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-04-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>260.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-4">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-04-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-05-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>250.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-5">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-05-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-06-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>260.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-6">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-06-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-07-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>230.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-7">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-07-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-08-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>280.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-8">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-08-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-09-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>270.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-9">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-09-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-10-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>260.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-10">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-10-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-11-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>250.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-11">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-11-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2019-12-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>240.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+                <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-12">
+                  <auc:ReadingType>Total</auc:ReadingType>
+                  <auc:TimeSeriesReadingQuantity>Greenhouse Gas Emissions</auc:TimeSeriesReadingQuantity>
+                  <auc:StartTimestamp>2019-12-01T00:00:00</auc:StartTimestamp>
+                  <auc:EndTimestamp>2020-01-01T00:00:00</auc:EndTimestamp>
+                  <auc:IntervalFrequency>Month</auc:IntervalFrequency>
+                  <auc:IntervalReading>250.000000</auc:IntervalReading>
+                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                </auc:TimeSeries>
+              </auc:TimeSeriesData>
+              <auc:AllResourceTotals>
+                <auc:AllResourceTotal ID="AllResourceTotal-1">
+                  <auc:SiteEnergyUse>238473.656550</auc:SiteEnergyUse>
+                  <auc:SiteEnergyUseIntensity>43.358800</auc:SiteEnergyUseIntensity>
+                  <auc:SourceEnergyUse>737088.900000</auc:SourceEnergyUse>
+                  <auc:SourceEnergyUseIntensity>134.000000</auc:SourceEnergyUseIntensity>
+                  <auc:BuildingEnergyUse>238473.656550</auc:BuildingEnergyUse>
+                  <auc:BuildingEnergyUseIntensity>43.358800</auc:BuildingEnergyUseIntensity>
+                  <auc:ImportedEnergyConsistentUnits>238.473657</auc:ImportedEnergyConsistentUnits>
+                  <auc:OnsiteEnergyProductionConsistentUnits>0.000000</auc:OnsiteEnergyProductionConsistentUnits>
+                  <auc:ExportedEnergyConsistentUnits>0.000000</auc:ExportedEnergyConsistentUnits>
+                  <auc:NetIncreaseInStoredEnergyConsistentUnits>0.000000</auc:NetIncreaseInStoredEnergyConsistentUnits>
+                  <auc:EnergyCost>4952.480000</auc:EnergyCost>
+                  <auc:EnergyCostIndex>0.900000</auc:EnergyCostIndex>
+                  <auc:AnnualAverageGHGEmissions>50000.000000</auc:AnnualAverageGHGEmissions>
+                  <auc:AnnualMarginalGHGEmissions>25000.000000</auc:AnnualMarginalGHGEmissions>
+                  <auc:AnnualGHGEmissionIntensity>57.729938</auc:AnnualGHGEmissionIntensity>
+                </auc:AllResourceTotal>
+              </auc:AllResourceTotals>
+              <auc:LinkedPremises>
+                <auc:Building>
+                  <auc:LinkedBuildingID IDref="Building-Small-Office-Prototype"/>
+                </auc:Building>
+              </auc:LinkedPremises>
+            </auc:Scenario>
+            <auc:Scenario ID="Scenario-Benchmark">
+              <auc:ScenarioType>
+                <auc:Benchmark>
+                  <auc:BenchmarkType>
+                    <auc:PortfolioManager>
+                      <auc:PMBenchmarkDate>2022-06-01</auc:PMBenchmarkDate>
+                    </auc:PortfolioManager>
+                  </auc:BenchmarkType>
+                  <auc:BenchmarkTool>Portfolio Manager</auc:BenchmarkTool>
+                  <auc:BenchmarkYear>2019</auc:BenchmarkYear>
+                  <auc:BenchmarkValue>80.000000</auc:BenchmarkValue>
+                </auc:Benchmark>
+              </auc:ScenarioType>
+              <auc:AllResourceTotals>
+                <auc:AllResourceTotal ID="AllResourceTotal-Benchmark">
+                  <auc:SiteEnergyUse>238473.656550</auc:SiteEnergyUse>
+                  <auc:SiteEnergyUseIntensity>43.358800</auc:SiteEnergyUseIntensity>
+                  <auc:EnergyCost>4952.480000</auc:EnergyCost>
+                </auc:AllResourceTotal>
+              </auc:AllResourceTotals>
+              <auc:LinkedPremises>
+                <auc:Building>
+                  <auc:LinkedBuildingID IDref="Building-Small-Office-Prototype"/>
+                </auc:Building>
+              </auc:LinkedPremises>
+            </auc:Scenario>
+            <auc:Scenario ID="Scenario-Target">
+              <auc:ScenarioType>
+                <auc:Target>
+                  <auc:ReferenceCase IDref="Scenario-Benchmark"/>
+                  <auc:AnnualSavingsSiteEnergy>39070.530000</auc:AnnualSavingsSiteEnergy>
+                  <auc:AnnualSavingsCost>995</auc:AnnualSavingsCost>
+                  <auc:ENERGYSTARScore>89.000000</auc:ENERGYSTARScore>
+                  <auc:AnnualSavingsAverageGHGEmissions>5000.000000</auc:AnnualSavingsAverageGHGEmissions>
+                  <auc:AnnualSavingsMarginalGHGEmissions>2500.000000</auc:AnnualSavingsMarginalGHGEmissions>
+                  <auc:AnnualSavingsGHGEmissionIntensity>5.772994</auc:AnnualSavingsGHGEmissionIntensity>
+                </auc:Target>
+              </auc:ScenarioType>
+              <auc:AllResourceTotals>
+                <auc:AllResourceTotal ID="AllResourceTotal-Target">
+                  <auc:SiteEnergyUse>190348.600000</auc:SiteEnergyUse>
+                  <auc:SiteEnergyUseIntensity>34.600000</auc:SiteEnergyUseIntensity>
+                  <auc:EnergyCost>4846.040000</auc:EnergyCost>
+                  <auc:EnergyCostIndex>0.881000</auc:EnergyCostIndex>
+                </auc:AllResourceTotal>
+              </auc:AllResourceTotals>
+              <auc:LinkedPremises>
+                <auc:Building>
+                  <auc:LinkedBuildingID IDref="Building-Small-Office-Prototype"/>
+                </auc:Building>
+              </auc:LinkedPremises>
+            </auc:Scenario>
+            <auc:Scenario ID="Scenario-POM-LEDs">
+              <auc:ScenarioName>POM-LEDs</auc:ScenarioName>
+              <auc:ScenarioType>
+                <auc:PackageOfMeasures ID="POM-LEDs">
+                  <auc:ReferenceCase IDref="Scenario-measured"/>
+                  <auc:MeasureIDs>
+                    <auc:MeasureID IDref="Measure-LEDs"/>
+                  </auc:MeasureIDs>
+                  <auc:CostCategory>Capital</auc:CostCategory>
+                  <auc:AnnualSavingsSiteEnergy>35.713000</auc:AnnualSavingsSiteEnergy>
+                  <auc:AnnualSavingsCost>772</auc:AnnualSavingsCost>
+                  <auc:AnnualSavingsByFuels>
+                    <auc:AnnualSavingsByFuel>
+                      <auc:EnergyResource>Electricity</auc:EnergyResource>
+                      <auc:ResourceUnits>kWh</auc:ResourceUnits>
+                      <auc:AnnualSavingsNativeUnits>11524.540000</auc:AnnualSavingsNativeUnits>
+                      <auc:AnnualSavingsAverageGHGEmissions>500.000000</auc:AnnualSavingsAverageGHGEmissions>
+                      <auc:AnnualSavingsMarginalGHGEmissions>250.000000</auc:AnnualSavingsMarginalGHGEmissions>
+                      <auc:AnnualSavingsGHGEmissionIntensity>0.577299</auc:AnnualSavingsGHGEmissionIntensity>
+                    </auc:AnnualSavingsByFuel>
+                    <auc:AnnualSavingsByFuel>
+                      <auc:EnergyResource>Natural gas</auc:EnergyResource>
+                      <auc:ResourceUnits>MMBtu</auc:ResourceUnits>
+                      <auc:AnnualSavingsNativeUnits>0.000000</auc:AnnualSavingsNativeUnits>
+                    </auc:AnnualSavingsByFuel>
+                  </auc:AnnualSavingsByFuels>
+                  <auc:AnnualPeakElectricityReduction>3.220000</auc:AnnualPeakElectricityReduction>
+                  <auc:AnnualDemandSavingsCost>0</auc:AnnualDemandSavingsCost>
+                  <auc:AnnualWaterSavings>0.000000</auc:AnnualWaterSavings>
+                  <auc:AnnualWaterCostSavings>0.000000</auc:AnnualWaterCostSavings>
+                  <auc:AnnualSavingsAverageGHGEmissions>500.000000</auc:AnnualSavingsAverageGHGEmissions>
+                  <auc:AnnualSavingsMarginalGHGEmissions>250.000000</auc:AnnualSavingsMarginalGHGEmissions>
+                  <auc:AnnualSavingsGHGEmissionIntensity>0.577299</auc:AnnualSavingsGHGEmissionIntensity>
+                  <auc:ImplementationPeriod>1</auc:ImplementationPeriod>
+                  <auc:PackageFirstCost>824.000000</auc:PackageFirstCost>
+                  <auc:MVCost>0.000000</auc:MVCost>
+                  <auc:OMCostAnnualSavings>0.000000</auc:OMCostAnnualSavings>
+                  <auc:EquipmentDisposalAndSalvageCosts>0.000000</auc:EquipmentDisposalAndSalvageCosts>
+                  <auc:ImplementationPeriodCostSavings>0.000000</auc:ImplementationPeriodCostSavings>
+                  <auc:ProjectMarkup>0.000000</auc:ProjectMarkup>
+                  <auc:FundingFromIncentives>0.000000</auc:FundingFromIncentives>
+                  <auc:FundingFromTaxCredits>0.000000</auc:FundingFromTaxCredits>
+                  <auc:OtherFinancialIncentives>0</auc:OtherFinancialIncentives>
+                  <auc:RecurringIncentives>0</auc:RecurringIncentives>
+                  <auc:SimplePayback>1.070000</auc:SimplePayback>
+                  <auc:InternalRateOfReturn>0.000000</auc:InternalRateOfReturn>
+                </auc:PackageOfMeasures>
+              </auc:ScenarioType>
+              <auc:LinkedPremises>
+                <auc:Building>
+                  <auc:LinkedBuildingID IDref="Building-Small-Office-Prototype"/>
+                </auc:Building>
+              </auc:LinkedPremises>
+            </auc:Scenario>
+          </auc:Scenarios>
+          <auc:ASHRAEAuditLevel>Level 2: Energy Survey and Analysis</auc:ASHRAEAuditLevel>
+          <auc:Utilities>
+            <auc:Utility ID="Utility-Electric">
+              <auc:RateSchedules>
+                <auc:RateSchedule ID="RateSchedule-Electricity">
+                  <auc:TypeOfRateStructure>
+                    <auc:FlatRate>
+                      <auc:RatePeriods>
+                        <auc:RatePeriod>
+                          <auc:ApplicableStartDateForEnergyRate>--06-01</auc:ApplicableStartDateForEnergyRate>
+                          <auc:ApplicableEndDateForEnergyRate>--09-30</auc:ApplicableEndDateForEnergyRate>
+                          <auc:ApplicableStartDateForDemandRate>--06-01</auc:ApplicableStartDateForDemandRate>
+                          <auc:ApplicableEndDateForDemandRate>--09-30</auc:ApplicableEndDateForDemandRate>
+                          <auc:EnergyCostRate>0.088520</auc:EnergyCostRate>
+                          <auc:ElectricDemandRate>0.000000</auc:ElectricDemandRate>
+                        </auc:RatePeriod>
+                        <auc:RatePeriod>
+                          <auc:ApplicableStartDateForEnergyRate>--01-01</auc:ApplicableStartDateForEnergyRate>
+                          <auc:ApplicableEndDateForEnergyRate>--05-31</auc:ApplicableEndDateForEnergyRate>
+                          <auc:ApplicableStartDateForDemandRate>--01-01</auc:ApplicableStartDateForDemandRate>
+                          <auc:ApplicableEndDateForDemandRate>--05-31</auc:ApplicableEndDateForDemandRate>
+                          <auc:EnergyCostRate>0.053140</auc:EnergyCostRate>
+                          <auc:ElectricDemandRate>0.000000</auc:ElectricDemandRate>
+                        </auc:RatePeriod>
+                        <auc:RatePeriod>
+                          <auc:ApplicableStartDateForEnergyRate>--10-01</auc:ApplicableStartDateForEnergyRate>
+                          <auc:ApplicableEndDateForEnergyRate>--12-31</auc:ApplicableEndDateForEnergyRate>
+                          <auc:ApplicableStartDateForDemandRate>--10-01</auc:ApplicableStartDateForDemandRate>
+                          <auc:ApplicableEndDateForDemandRate>--12-31</auc:ApplicableEndDateForDemandRate>
+                          <auc:EnergyCostRate>0.053140</auc:EnergyCostRate>
+                          <auc:ElectricDemandRate>0.000000</auc:ElectricDemandRate>
+                        </auc:RatePeriod>
+                      </auc:RatePeriods>
+                    </auc:FlatRate>
+                  </auc:TypeOfRateStructure>
+                  <auc:ReferenceForRateStructure>https://www.xcelenergy.com/company/rates_and_regulations/rates/rate_books</auc:ReferenceForRateStructure>
+                  <auc:FixedMonthlyCharge>16.880000</auc:FixedMonthlyCharge>
+                </auc:RateSchedule>
+              </auc:RateSchedules>
+              <auc:EIAUtilityID>12345</auc:EIAUtilityID>
+              <auc:UtilityName>Xcel Energy</auc:UtilityName>
+              <auc:UtilityMeterNumbers>
+                <auc:UtilityMeterNumber>Some-meter-ID</auc:UtilityMeterNumber>
+              </auc:UtilityMeterNumbers>
+              <auc:UtilityAccountNumber>some-account-number</auc:UtilityAccountNumber>
+              <auc:UtilityBillpayer>Building Owner</auc:UtilityBillpayer>
+            </auc:Utility>
+            <auc:Utility ID="Utility-Natural-Gas">
+              <auc:RateSchedules>
+                <auc:RateSchedule ID="RateSchedule-Natural-Gas">
+                  <auc:TypeOfRateStructure>
+                    <auc:FlatRate>
+                      <auc:RatePeriods>
+                        <auc:RatePeriod>
+                          <auc:ApplicableStartDateForEnergyRate>--01-01</auc:ApplicableStartDateForEnergyRate>
+                          <auc:ApplicableEndDateForEnergyRate>--12-31</auc:ApplicableEndDateForEnergyRate>
+                          <auc:EnergyCostRate>0.163600</auc:EnergyCostRate>
+                        </auc:RatePeriod>
+                      </auc:RatePeriods>
+                    </auc:FlatRate>
+                  </auc:TypeOfRateStructure>
+                  <auc:ReferenceForRateStructure>https://www.xcelenergy.com/company/rates_and_regulations/rates/rate_books</auc:ReferenceForRateStructure>
+                  <auc:FixedMonthlyCharge>43.880000</auc:FixedMonthlyCharge>
+                </auc:RateSchedule>
+              </auc:RateSchedules>
+              <auc:UtilityName>Xcel Energy</auc:UtilityName>
+              <auc:UtilityMeterNumbers>
+                <auc:UtilityMeterNumber>Some-meter-ID</auc:UtilityMeterNumber>
+              </auc:UtilityMeterNumbers>
+              <auc:UtilityAccountNumber>some-other-account-number</auc:UtilityAccountNumber>
+              <auc:UtilityBillpayer>Building Owner</auc:UtilityBillpayer>
+            </auc:Utility>
+          </auc:Utilities>
+          <auc:AuditorContactID IDref="Contact-Auditor"/>
+          <auc:LinkedPremisesOrSystem>
+            <auc:Building>
+              <auc:LinkedBuildingID IDref="Building-Small-Office-Prototype"/>
+            </auc:Building>
+          </auc:LinkedPremisesOrSystem>
+        </auc:Report>
+      </auc:Reports>
+      <auc:Contacts>
+        <auc:Contact ID="Contact-Owner">
+          <auc:ContactRoles>
+            <auc:ContactRole>Owner</auc:ContactRole>
+          </auc:ContactRoles>
+          <auc:ContactName>The dude</auc:ContactName>
+          <auc:ContactCompany>Some big company</auc:ContactCompany>
+          <auc:ContactTelephoneNumbers>
+            <auc:ContactTelephoneNumber>
+              <auc:TelephoneNumber>123-456-7890</auc:TelephoneNumber>
+            </auc:ContactTelephoneNumber>
+          </auc:ContactTelephoneNumbers>
+          <auc:ContactEmailAddresses>
+            <auc:ContactEmailAddress>
+              <auc:EmailAddress>the.dude@somebigco.net</auc:EmailAddress>
+            </auc:ContactEmailAddress>
+          </auc:ContactEmailAddresses>
+        </auc:Contact>
+        <auc:Contact ID="Contact-Auditor">
+          <auc:ContactRoles>
+            <auc:ContactRole>Energy Auditor</auc:ContactRole>
+          </auc:ContactRoles>
+          <auc:ContactName>The lady</auc:ContactName>
+          <auc:ContactCompany>Auditeers</auc:ContactCompany>
+          <auc:ContactTelephoneNumbers>
+            <auc:ContactTelephoneNumber>
+              <auc:TelephoneNumber>123-456-7890</auc:TelephoneNumber>
+            </auc:ContactTelephoneNumber>
+          </auc:ContactTelephoneNumbers>
+          <auc:ContactEmailAddresses>
+            <auc:ContactEmailAddress>
+              <auc:EmailAddress>the.lady@the-three-auditeers.com</auc:EmailAddress>
+            </auc:ContactEmailAddress>
+          </auc:ContactEmailAddresses>
+        </auc:Contact>
+      </auc:Contacts>
+    </auc:Facility>
+  </auc:Facilities>
+</auc:BuildingSync>
