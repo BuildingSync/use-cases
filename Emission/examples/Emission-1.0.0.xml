@@ -152,7 +152,7 @@
               </auc:Building>
             </auc:LinkedPremises>
           </auc:LightingSystem>
-        </auc:LightingSystems>  
+        </auc:LightingSystems>
       </auc:Systems>
       <auc:Measures>
         <auc:Measure ID="Measure-LEDs">
