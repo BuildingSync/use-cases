@@ -81,13 +81,9 @@
             </auc:Controls>
             <auc:LightingAutomationSystem>false</auc:LightingAutomationSystem>
             <auc:LinkedPremises>
-              <auc:Section>
-                <auc:LinkedSectionID IDref="Section-office">
-                  <auc:LinkedScheduleIDs>
-                    <auc:LinkedScheduleID IDref="Schedule-Lighting"/>
-                  </auc:LinkedScheduleIDs>
-                </auc:LinkedSectionID>
-              </auc:Section>
+              <auc:Building>
+                <auc:LinkedBuildingID IDref="Building-Small-Office-Prototype"/>
+              </auc:Building>
             </auc:LinkedPremises>
           </auc:LightingSystem>
           <auc:LightingSystem ID="LightingSystem-2">
@@ -116,13 +112,9 @@
             </auc:Controls>
             <auc:LightingAutomationSystem>false</auc:LightingAutomationSystem>
             <auc:LinkedPremises>
-              <auc:Section>
-                <auc:LinkedSectionID IDref="Section-Whole-building">
-                  <auc:LinkedScheduleIDs>
-                    <auc:LinkedScheduleID IDref="Schedule-Lighting"/>
-                  </auc:LinkedScheduleIDs>
-                </auc:LinkedSectionID>
-              </auc:Section>
+              <auc:Building>
+                <auc:LinkedBuildingID IDref="Building-Small-Office-Prototype"/>
+              </auc:Building>
             </auc:LinkedPremises>
           </auc:LightingSystem>
           <auc:LightingSystem ID="LightingSystem-new">
@@ -155,13 +147,9 @@
             </auc:Controls>
             <auc:LightingAutomationSystem>false</auc:LightingAutomationSystem>
             <auc:LinkedPremises>
-              <auc:Section>
-                <auc:LinkedSectionID IDref="Section-office">
-                  <auc:LinkedScheduleIDs>
-                    <auc:LinkedScheduleID IDref="Schedule-Lighting"/>
-                  </auc:LinkedScheduleIDs>
-                </auc:LinkedSectionID>
-              </auc:Section>
+              <auc:Building>
+                <auc:LinkedBuildingID IDref="Building-Small-Office-Prototype"/>
+              </auc:Building>
             </auc:LinkedPremises>
           </auc:LightingSystem>
         </auc:LightingSystems>  
@@ -212,7 +200,6 @@
               </auc:ScenarioType>
               <auc:ResourceUses>
                 <auc:ResourceUse ID="ResourceUse-Electricity">
-                  <auc:EnergyResource>Electricity</auc:EnergyResource>
                   <auc:ResourceUseNotes>Document irregularities in monthly patterns. No irregularities found.</auc:ResourceUseNotes>
                   <auc:ResourceUnits>kWh</auc:ResourceUnits>
                   <auc:EndUse>All end uses</auc:EndUse>
@@ -236,29 +223,6 @@
                   <auc:AnnualPeakNativeUnits>26.040000</auc:AnnualPeakNativeUnits>
                   <auc:AnnualPeakConsistentUnits>26.040000</auc:AnnualPeakConsistentUnits>
                   <auc:AnnualFuelCost>4613.820000</auc:AnnualFuelCost>
-                  <auc:Emissions>
-                    <auc:Emission>
-                      <auc:EmissionBoundary>Indirect</auc:EmissionBoundary>
-                      <auc:EmissionsType>CO2e</auc:EmissionsType>
-                      <auc:EmissionsFactor>0.3</auc:EmissionsFactor>
-                      <auc:EmissionsFactorSource>US EIA</auc:EmissionsFactorSource>
-                      <auc:GHGEmissions>25000.000000</auc:GHGEmissions>
-                      <auc:EmissionsLinkedTimeSeriesIDs>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-1"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-2"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-3"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-4"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-5"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-6"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-7"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-8"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-9"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-10"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-11"/>
-                        <auc:EmissionsLinkedTimeSeriesID IDref="TS-ResourceUse-GreenhouseGasEmissions-12"/>
-                      </auc:EmissionsLinkedTimeSeriesIDs>
-                    </auc:Emission>
-                  </auc:Emissions>
                   <auc:UtilityIDs>
                     <auc:UtilityID IDref="Utility-Electric"/>
                   </auc:UtilityIDs>
@@ -285,6 +249,11 @@
                     <auc:LinkedTimeSeriesID IDref="TS-ResourceUse-Natural-gas-Total-12"/>
                   </auc:AnnualFuelUseLinkedTimeSeriesIDs>
                   <auc:AnnualFuelCost>540.830000</auc:AnnualFuelCost>
+                  <auc:UtilityIDs>
+                    <auc:UtilityID IDref="Utility-Natural-Gas"/>
+                  </auc:UtilityIDs>
+                </auc:ResourceUse>
+                <auc:ResourceUse ID="ResourceUse-All">
                   <auc:Emissions>
                     <auc:Emission>
                       <auc:EmissionBoundary>Indirect</auc:EmissionBoundary>
@@ -308,9 +277,6 @@
                       </auc:EmissionsLinkedTimeSeriesIDs>
                     </auc:Emission>
                   </auc:Emissions>
-                  <auc:UtilityIDs>
-                    <auc:UtilityID IDref="Utility-Natural-Gas"/>
-                  </auc:UtilityIDs>
                 </auc:ResourceUse>
               </auc:ResourceUses>
               <auc:TimeSeriesData>
@@ -585,7 +551,7 @@
                   <auc:EndTimestamp>2019-02-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>250.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-2">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -594,7 +560,7 @@
                   <auc:EndTimestamp>2019-03-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>240.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-3">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -603,7 +569,7 @@
                   <auc:EndTimestamp>2019-04-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>260.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-4">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -612,7 +578,7 @@
                   <auc:EndTimestamp>2019-05-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>250.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-5">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -621,7 +587,7 @@
                   <auc:EndTimestamp>2019-06-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>260.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-6">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -630,7 +596,7 @@
                   <auc:EndTimestamp>2019-07-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>230.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-7">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -639,7 +605,7 @@
                   <auc:EndTimestamp>2019-08-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>280.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-8">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -648,7 +614,7 @@
                   <auc:EndTimestamp>2019-09-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>270.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-9">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -657,7 +623,7 @@
                   <auc:EndTimestamp>2019-10-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>260.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-10">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -666,7 +632,7 @@
                   <auc:EndTimestamp>2019-11-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>250.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-11">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -675,7 +641,7 @@
                   <auc:EndTimestamp>2019-12-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>240.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
                 <auc:TimeSeries ID="TS-ResourceUse-GreenhouseGasEmissions-12">
                   <auc:ReadingType>Total</auc:ReadingType>
@@ -684,7 +650,7 @@
                   <auc:EndTimestamp>2020-01-01T00:00:00</auc:EndTimestamp>
                   <auc:IntervalFrequency>Month</auc:IntervalFrequency>
                   <auc:IntervalReading>250.000000</auc:IntervalReading>
-                  <auc:ResourceUseID IDref="ResourceUse-GreenhouseGasEmissions"/>
+                  <auc:ResourceUseID IDref="ResourceUse-All"/>
                 </auc:TimeSeries>
               </auc:TimeSeriesData>
               <auc:AllResourceTotals>
@@ -701,9 +667,9 @@
                   <auc:NetIncreaseInStoredEnergyConsistentUnits>0.000000</auc:NetIncreaseInStoredEnergyConsistentUnits>
                   <auc:EnergyCost>4952.480000</auc:EnergyCost>
                   <auc:EnergyCostIndex>0.900000</auc:EnergyCostIndex>
-                  <auc:AnnualAverageGHGEmissions>50000.000000</auc:AnnualAverageGHGEmissions>
-                  <auc:AnnualMarginalGHGEmissions>25000.000000</auc:AnnualMarginalGHGEmissions>
-                  <auc:AnnualGHGEmissionIntensity>57.729938</auc:AnnualGHGEmissionIntensity>
+                  <auc:AnnualAverageGHGEmissions>25000.000000</auc:AnnualAverageGHGEmissions>
+                  <auc:AnnualMarginalGHGEmissions>20000.000000</auc:AnnualMarginalGHGEmissions>
+                  <auc:AnnualGHGEmissionIntensity>28.864969</auc:AnnualGHGEmissionIntensity>
                 </auc:AllResourceTotal>
               </auc:AllResourceTotals>
               <auc:LinkedPremises>
@@ -745,9 +711,9 @@
                   <auc:AnnualSavingsSiteEnergy>39070.530000</auc:AnnualSavingsSiteEnergy>
                   <auc:AnnualSavingsCost>995</auc:AnnualSavingsCost>
                   <auc:ENERGYSTARScore>89.000000</auc:ENERGYSTARScore>
-                  <auc:AnnualSavingsAverageGHGEmissions>5000.000000</auc:AnnualSavingsAverageGHGEmissions>
-                  <auc:AnnualSavingsMarginalGHGEmissions>2500.000000</auc:AnnualSavingsMarginalGHGEmissions>
-                  <auc:AnnualSavingsGHGEmissionIntensity>5.772994</auc:AnnualSavingsGHGEmissionIntensity>
+                  <auc:AnnualSavingsAverageGHGEmissions>500.000000</auc:AnnualSavingsAverageGHGEmissions>
+                  <auc:AnnualSavingsMarginalGHGEmissions>300.000000</auc:AnnualSavingsMarginalGHGEmissions>
+                  <auc:AnnualSavingsGHGEmissionIntensity>0.2886497</auc:AnnualSavingsGHGEmissionIntensity>
                 </auc:Target>
               </auc:ScenarioType>
               <auc:AllResourceTotals>
@@ -781,8 +747,8 @@
                       <auc:ResourceUnits>kWh</auc:ResourceUnits>
                       <auc:AnnualSavingsNativeUnits>11524.540000</auc:AnnualSavingsNativeUnits>
                       <auc:AnnualSavingsAverageGHGEmissions>500.000000</auc:AnnualSavingsAverageGHGEmissions>
-                      <auc:AnnualSavingsMarginalGHGEmissions>250.000000</auc:AnnualSavingsMarginalGHGEmissions>
-                      <auc:AnnualSavingsGHGEmissionIntensity>0.577299</auc:AnnualSavingsGHGEmissionIntensity>
+                      <auc:AnnualSavingsMarginalGHGEmissions>300.000000</auc:AnnualSavingsMarginalGHGEmissions>
+                      <auc:AnnualSavingsGHGEmissionIntensity>0.2886497</auc:AnnualSavingsGHGEmissionIntensity>
                     </auc:AnnualSavingsByFuel>
                     <auc:AnnualSavingsByFuel>
                       <auc:EnergyResource>Natural gas</auc:EnergyResource>
@@ -795,8 +761,8 @@
                   <auc:AnnualWaterSavings>0.000000</auc:AnnualWaterSavings>
                   <auc:AnnualWaterCostSavings>0.000000</auc:AnnualWaterCostSavings>
                   <auc:AnnualSavingsAverageGHGEmissions>500.000000</auc:AnnualSavingsAverageGHGEmissions>
-                  <auc:AnnualSavingsMarginalGHGEmissions>250.000000</auc:AnnualSavingsMarginalGHGEmissions>
-                  <auc:AnnualSavingsGHGEmissionIntensity>0.577299</auc:AnnualSavingsGHGEmissionIntensity>
+                  <auc:AnnualSavingsMarginalGHGEmissions>300.000000</auc:AnnualSavingsMarginalGHGEmissions>
+                  <auc:AnnualSavingsGHGEmissionIntensity>0.2886497</auc:AnnualSavingsGHGEmissionIntensity>
                   <auc:ImplementationPeriod>1</auc:ImplementationPeriod>
                   <auc:PackageFirstCost>824.000000</auc:PackageFirstCost>
                   <auc:MVCost>0.000000</auc:MVCost>
@@ -819,7 +785,6 @@
               </auc:LinkedPremises>
             </auc:Scenario>
           </auc:Scenarios>
-          <auc:ASHRAEAuditLevel>Level 2: Energy Survey and Analysis</auc:ASHRAEAuditLevel>
           <auc:Utilities>
             <auc:Utility ID="Utility-Electric">
               <auc:RateSchedules>
