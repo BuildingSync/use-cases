@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auc:BuildingSync xmlns:auc="http://buildingsync.net/schemas/bedes-auc/2019" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://buildingsync.net/schemas/bedes-auc/2019 https://raw.githubusercontent.com/BuildingSync/schema/v2.0/BuildingSync.xsd">
   <auc:Facilities>
-    <auc:Facility>
+    <auc:Facility ID="Facility-1">
       <auc:Sites>
-        <auc:Site>
+        <auc:Site ID="Site-1">
           <auc:ClimateZoneType>
             <auc:ASHRAE>
               <auc:ClimateZone>3C</auc:ClimateZone>
@@ -1902,12 +1902,12 @@
         </auc:Measure>
       </auc:Measures>
       <auc:Reports>
-        <auc:Report>
+        <auc:Report ID="Report-1">
           <auc:Scenarios>
             <auc:Scenario ID="Baseline">
               <auc:ScenarioName>Baseline</auc:ScenarioName>
               <auc:ScenarioType>
-                <auc:PackageOfMeasures>
+                <auc:PackageOfMeasures ID="PackageOfMeasures-1">
                   <auc:ReferenceCase IDref="Baseline"/>
                   <auc:CalculationMethod>
                     <auc:Modeled>
@@ -1947,7 +1947,7 @@
                 </auc:ResourceUse>
               </auc:ResourceUses>
               <auc:TimeSeriesData>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-1">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-01-02T00:00:00</auc:StartTimestamp>
@@ -1956,7 +1956,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-2">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-02-02T00:00:00</auc:StartTimestamp>
@@ -1965,7 +1965,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-3">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-03-02T00:00:00</auc:StartTimestamp>
@@ -1974,7 +1974,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-4">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-04-02T00:00:00</auc:StartTimestamp>
@@ -1983,7 +1983,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-5">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-05-02T00:00:00</auc:StartTimestamp>
@@ -1992,7 +1992,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-6">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-06-02T00:00:00</auc:StartTimestamp>
@@ -2001,7 +2001,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-7">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-07-02T00:00:00</auc:StartTimestamp>
@@ -2010,7 +2010,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-8">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-08-02T00:00:00</auc:StartTimestamp>
@@ -2019,7 +2019,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-9">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-09-02T00:00:00</auc:StartTimestamp>
@@ -2028,7 +2028,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-10">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-10-02T00:00:00</auc:StartTimestamp>
@@ -2037,7 +2037,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-11">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-11-02T00:00:00</auc:StartTimestamp>
@@ -2046,7 +2046,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-12">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-12-02T00:00:00</auc:StartTimestamp>
@@ -2055,7 +2055,7 @@
                   <auc:IntervalReading>186000</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-13">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-01-02T00:00:00</auc:StartTimestamp>
@@ -2064,7 +2064,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-14">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-02-02T00:00:00</auc:StartTimestamp>
@@ -2073,7 +2073,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-15">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-03-02T00:00:00</auc:StartTimestamp>
@@ -2082,7 +2082,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-16">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-04-02T00:00:00</auc:StartTimestamp>
@@ -2091,7 +2091,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-17">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-05-02T00:00:00</auc:StartTimestamp>
@@ -2100,7 +2100,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-18">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-06-02T00:00:00</auc:StartTimestamp>
@@ -2109,7 +2109,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-19">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-07-02T00:00:00</auc:StartTimestamp>
@@ -2118,7 +2118,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-20">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-08-02T00:00:00</auc:StartTimestamp>
@@ -2127,7 +2127,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-21">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-09-02T00:00:00</auc:StartTimestamp>
@@ -2136,7 +2136,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-22">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-10-02T00:00:00</auc:StartTimestamp>
@@ -2145,7 +2145,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-23">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-11-02T00:00:00</auc:StartTimestamp>
@@ -2154,7 +2154,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Baseline-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-24">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-12-02T00:00:00</auc:StartTimestamp>
@@ -2165,7 +2165,7 @@
                 </auc:TimeSeries>
               </auc:TimeSeriesData>
               <auc:AllResourceTotals>
-                <auc:AllResourceTotal>
+                <auc:AllResourceTotal ID="AllResourceTotal-1">
                   <auc:EndUse>All end uses</auc:EndUse>
                   <auc:SiteEnergyUse>3902.655949232491</auc:SiteEnergyUse>
                   <auc:SiteEnergyUseIntensity>52.8533358512101</auc:SiteEnergyUseIntensity>
@@ -2174,10 +2174,10 @@
                 </auc:AllResourceTotal>
               </auc:AllResourceTotals>
             </auc:Scenario>
-            <auc:Scenario>
+            <auc:Scenario ID="Scenario-1">
               <auc:ScenarioName>LED Only</auc:ScenarioName>
               <auc:ScenarioType>
-                <auc:PackageOfMeasures>
+                <auc:PackageOfMeasures ID="PackageOfMeasures-2">
                   <auc:ReferenceCase IDref="Baseline"/>
                   <auc:MeasureIDs>
                     <auc:MeasureID IDref="Measure1"/>
@@ -2220,7 +2220,7 @@
                 </auc:ResourceUse>
               </auc:ResourceUses>
               <auc:TimeSeriesData>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-25">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-01-02T00:00:00</auc:StartTimestamp>
@@ -2229,7 +2229,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-26">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-02-02T00:00:00</auc:StartTimestamp>
@@ -2238,7 +2238,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-27">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-03-02T00:00:00</auc:StartTimestamp>
@@ -2247,7 +2247,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-28">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-04-02T00:00:00</auc:StartTimestamp>
@@ -2256,7 +2256,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-29">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-05-02T00:00:00</auc:StartTimestamp>
@@ -2265,7 +2265,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-30">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-06-02T00:00:00</auc:StartTimestamp>
@@ -2274,7 +2274,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-31">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-07-02T00:00:00</auc:StartTimestamp>
@@ -2283,7 +2283,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-32">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-08-02T00:00:00</auc:StartTimestamp>
@@ -2292,7 +2292,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-33">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-09-02T00:00:00</auc:StartTimestamp>
@@ -2301,7 +2301,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-34">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-10-02T00:00:00</auc:StartTimestamp>
@@ -2310,7 +2310,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-35">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-11-02T00:00:00</auc:StartTimestamp>
@@ -2319,7 +2319,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-36">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-12-02T00:00:00</auc:StartTimestamp>
@@ -2328,7 +2328,7 @@
                   <auc:IntervalReading>186200</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-37">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-01-02T00:00:00</auc:StartTimestamp>
@@ -2337,7 +2337,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-38">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-02-02T00:00:00</auc:StartTimestamp>
@@ -2346,7 +2346,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-39">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-03-02T00:00:00</auc:StartTimestamp>
@@ -2355,7 +2355,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-40">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-04-02T00:00:00</auc:StartTimestamp>
@@ -2364,7 +2364,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-41">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-05-02T00:00:00</auc:StartTimestamp>
@@ -2373,7 +2373,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-42">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-06-02T00:00:00</auc:StartTimestamp>
@@ -2382,7 +2382,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-43">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-07-02T00:00:00</auc:StartTimestamp>
@@ -2391,7 +2391,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-44">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-08-02T00:00:00</auc:StartTimestamp>
@@ -2400,7 +2400,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-45">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-09-02T00:00:00</auc:StartTimestamp>
@@ -2409,7 +2409,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-46">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-10-02T00:00:00</auc:StartTimestamp>
@@ -2418,7 +2418,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-47">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-11-02T00:00:00</auc:StartTimestamp>
@@ -2427,7 +2427,7 @@
                   <auc:IntervalReading>75700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="LED_Only-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-48">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-12-02T00:00:00</auc:StartTimestamp>
@@ -2438,7 +2438,7 @@
                 </auc:TimeSeries>
               </auc:TimeSeriesData>
               <auc:AllResourceTotals>
-                <auc:AllResourceTotal>
+                <auc:AllResourceTotal ID="AllResourceTotal-2">
                   <auc:EndUse>All end uses</auc:EndUse>
                   <auc:SiteEnergyUse>3144.098951503336</auc:SiteEnergyUse>
                   <auc:SiteEnergyUseIntensity>52.8533358512101</auc:SiteEnergyUseIntensity>
@@ -2452,10 +2452,10 @@
                 </auc:Building>
               </auc:LinkedPremises>
             </auc:Scenario>
-            <auc:Scenario>
+            <auc:Scenario ID="Scenario-2">
               <auc:ScenarioName>Electric_Appliance_30pct_Reduction Only</auc:ScenarioName>
               <auc:ScenarioType>
-                <auc:PackageOfMeasures>
+                <auc:PackageOfMeasures ID="PackageOfMeasures-3">
                   <auc:ReferenceCase IDref="Baseline"/>
                   <auc:MeasureIDs>
                     <auc:MeasureID IDref="Measure2"/>
@@ -2498,7 +2498,7 @@
                 </auc:ResourceUse>
               </auc:ResourceUses>
               <auc:TimeSeriesData>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-49">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-01-02T00:00:00</auc:StartTimestamp>
@@ -2507,7 +2507,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-50">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-02-02T00:00:00</auc:StartTimestamp>
@@ -2516,7 +2516,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-51">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-03-02T00:00:00</auc:StartTimestamp>
@@ -2525,7 +2525,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-52">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-04-02T00:00:00</auc:StartTimestamp>
@@ -2534,7 +2534,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-53">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-05-02T00:00:00</auc:StartTimestamp>
@@ -2543,7 +2543,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-54">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-06-02T00:00:00</auc:StartTimestamp>
@@ -2552,7 +2552,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-55">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-07-02T00:00:00</auc:StartTimestamp>
@@ -2561,7 +2561,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-56">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-08-02T00:00:00</auc:StartTimestamp>
@@ -2570,7 +2570,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-57">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-09-02T00:00:00</auc:StartTimestamp>
@@ -2579,7 +2579,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-58">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-10-02T00:00:00</auc:StartTimestamp>
@@ -2588,7 +2588,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-59">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-11-02T00:00:00</auc:StartTimestamp>
@@ -2597,7 +2597,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-60">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-12-02T00:00:00</auc:StartTimestamp>
@@ -2606,7 +2606,7 @@
                   <auc:IntervalReading>242820</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource1"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-61">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-01-02T00:00:00</auc:StartTimestamp>
@@ -2615,7 +2615,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-62">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-02-02T00:00:00</auc:StartTimestamp>
@@ -2624,7 +2624,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-63">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-03-02T00:00:00</auc:StartTimestamp>
@@ -2633,7 +2633,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-64">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-04-02T00:00:00</auc:StartTimestamp>
@@ -2642,7 +2642,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-65">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-05-02T00:00:00</auc:StartTimestamp>
@@ -2651,7 +2651,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-66">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-06-02T00:00:00</auc:StartTimestamp>
@@ -2660,7 +2660,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-67">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-07-02T00:00:00</auc:StartTimestamp>
@@ -2669,7 +2669,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-68">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-08-02T00:00:00</auc:StartTimestamp>
@@ -2678,7 +2678,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-69">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-09-02T00:00:00</auc:StartTimestamp>
@@ -2687,7 +2687,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-70">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-10-02T00:00:00</auc:StartTimestamp>
@@ -2696,7 +2696,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-71">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-11-02T00:00:00</auc:StartTimestamp>
@@ -2705,7 +2705,7 @@
                   <auc:IntervalReading>58700</auc:IntervalReading>
                   <auc:ResourceUseID IDref="Electric_Appliance_30pct_Reduction-Resource2"/>
                 </auc:TimeSeries>
-                <auc:TimeSeries>
+                <auc:TimeSeries ID="TimeSeries-72">
                   <auc:ReadingType>Total</auc:ReadingType>
                   <auc:TimeSeriesReadingQuantity>Energy</auc:TimeSeriesReadingQuantity>
                   <auc:StartTimestamp>2010-12-02T00:00:00</auc:StartTimestamp>
@@ -2716,7 +2716,7 @@
                 </auc:TimeSeries>
               </auc:TimeSeriesData>
               <auc:AllResourceTotals>
-                <auc:AllResourceTotal>
+                <auc:AllResourceTotal ID="AllResourceTotal-3">
                   <auc:EndUse>All end uses</auc:EndUse>
                   <auc:SiteEnergyUse>3618.5382892473704</auc:SiteEnergyUse>
                   <auc:SiteEnergyUseIntensity>52.8533358512101</auc:SiteEnergyUseIntensity>
