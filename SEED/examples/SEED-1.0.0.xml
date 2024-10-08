@@ -307,7 +307,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Install plug load controls</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>5.6</auc:UsefulLife>
+          <auc:UsefulLife>6</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>63614.78</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -509,7 +509,7 @@
           <auc:LongDescription>Replace ice/refrigeration equipment with high efficiency units
           </auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>12.5</auc:UsefulLife>
+          <auc:UsefulLife>13</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>151279.05</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -685,7 +685,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Improve ventilation fans</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>4.4</auc:UsefulLife>
+          <auc:UsefulLife>5</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>77579.0</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -735,7 +735,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Add or repair economizer</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>12.5</auc:UsefulLife>
+          <auc:UsefulLife>13</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>62063.200000000004</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -911,7 +911,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Install plug load controls Package0</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>5.6</auc:UsefulLife>
+          <auc:UsefulLife>6</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>63614.78</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -1063,7 +1063,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Install plug load controls Package1</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>5.6</auc:UsefulLife>
+          <auc:UsefulLife>6</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>63614.78</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -1240,7 +1240,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Install plug load controls Package2</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>5.6</auc:UsefulLife>
+          <auc:UsefulLife>6</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>63614.78</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -1366,7 +1366,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Improve ventilation fans Package2</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>4.4</auc:UsefulLife>
+          <auc:UsefulLife>5</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>77579.0</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -1416,7 +1416,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Add or repair economizer Package2</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>12.5</auc:UsefulLife>
+          <auc:UsefulLife>13</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>62063.200000000004</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -1617,7 +1617,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Install plug load controls Package3</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>5.6</auc:UsefulLife>
+          <auc:UsefulLife>6</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>63614.78</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>
@@ -1818,7 +1818,7 @@
           <auc:CustomMeasureName>TBD</auc:CustomMeasureName>
           <auc:LongDescription>Improve ventilation fans Package3</auc:LongDescription>
           <auc:MVCost>0</auc:MVCost>
-          <auc:UsefulLife>4.4</auc:UsefulLife>
+          <auc:UsefulLife>5</auc:UsefulLife>
           <auc:MeasureTotalFirstCost>77579.0</auc:MeasureTotalFirstCost>
           <auc:MeasureInstallationCost>0</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>0</auc:MeasureMaterialCost>

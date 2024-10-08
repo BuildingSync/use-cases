@@ -179,7 +179,7 @@
             <auc:AnnualSavingsMarginalGHGEmissions>250.000000</auc:AnnualSavingsMarginalGHGEmissions>
             <auc:AnnualSavingsGHGEmissionIntensity>0.577299</auc:AnnualSavingsGHGEmissionIntensity>
           </auc:MeasureSavingsAnalysis>
-          <auc:UsefulLife>1.000000</auc:UsefulLife>
+          <auc:UsefulLife>1</auc:UsefulLife>
           <auc:MeasureInstallationCost>50.000000</auc:MeasureInstallationCost>
           <auc:MeasureMaterialCost>774.000000</auc:MeasureMaterialCost>
           <auc:Recommended>true</auc:Recommended>
