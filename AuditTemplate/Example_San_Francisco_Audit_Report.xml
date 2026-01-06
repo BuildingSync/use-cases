@@ -45,6 +45,7 @@ This example is configured to import and export with BuildingSync version 2.3.0.
               <auc:eGRIDSubregionCodes>
                 <auc:eGRIDSubregionCode>CAMX</auc:eGRIDSubregionCode>
               </auc:eGRIDSubregionCodes>
+              <auc:OccupancyClassification>Office</auc:OccupancyClassification>
               <auc:Ownership>Property management company</auc:Ownership>
               <auc:MultiTenant>false</auc:MultiTenant>
               <auc:ConditionedFloorsAboveGrade>4</auc:ConditionedFloorsAboveGrade>

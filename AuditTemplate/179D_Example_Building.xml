@@ -43,6 +43,7 @@
               <auc:eGRIDSubregionCodes>
                 <auc:eGRIDSubregionCode>FRCC</auc:eGRIDSubregionCode>
               </auc:eGRIDSubregionCodes>
+              <auc:OccupancyClassification>Office</auc:OccupancyClassification>
               <auc:MultiTenant>false</auc:MultiTenant>
               <auc:BuildingAutomationSystem>false</auc:BuildingAutomationSystem>
               <auc:HistoricalLandmark>false</auc:HistoricalLandmark>

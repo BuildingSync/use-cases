@@ -39,6 +39,7 @@
               <auc:eGRIDSubregionCodes>
                 <auc:eGRIDSubregionCode>RFCE</auc:eGRIDSubregionCode>
               </auc:eGRIDSubregionCodes>
+              <auc:OccupancyClassification>Multifamily</auc:OccupancyClassification>
               <auc:MultiTenant>false</auc:MultiTenant>
               <auc:ConditionedFloorsAboveGrade>3</auc:ConditionedFloorsAboveGrade>
               <auc:ConditionedFloorsBelowGrade>0</auc:ConditionedFloorsBelowGrade>

@@ -36,6 +36,7 @@
                 <auc:State>CO</auc:State>
                 <auc:PostalCode>80405</auc:PostalCode>
               </auc:Address>
+              <auc:OccupancyClassification>Multifamily</auc:OccupancyClassification>
               <auc:Ownership>Property management company</auc:Ownership>
               <auc:MultiTenant>false</auc:MultiTenant>
               <auc:ConditionedFloorsAboveGrade>9</auc:ConditionedFloorsAboveGrade>

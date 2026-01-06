@@ -71,6 +71,7 @@
               <auc:eGRIDSubregionCodes>
                 <auc:eGRIDSubregionCode>NYCW</auc:eGRIDSubregionCode>
               </auc:eGRIDSubregionCodes>
+              <auc:OccupancyClassification>Office</auc:OccupancyClassification>
               <auc:MultiTenant>false</auc:MultiTenant>
               <auc:ConditionedFloorsAboveGrade>15</auc:ConditionedFloorsAboveGrade>
               <auc:ConditionedFloorsBelowGrade>0</auc:ConditionedFloorsBelowGrade>
